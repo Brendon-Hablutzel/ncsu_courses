@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 from dataclasses import dataclass
 import datetime
 from enum import Enum
-from util import get_course_html
-from term import Term
+from ncsu_courses.util import get_course_html
+from ncsu_courses.term import Term
 from typing import Generator
 
 

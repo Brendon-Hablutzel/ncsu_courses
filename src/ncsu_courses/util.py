@@ -1,5 +1,5 @@
 import requests
-from term import Term
+from ncsu_courses.term import Term
 
 COURSES_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/search.php"
 
