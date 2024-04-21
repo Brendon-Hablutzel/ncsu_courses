@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=59.6"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncsu_courses"
+authors = [
+    {name = "Brendon Hablutzel"},
+]
+description = "A Python library for retrieving data about NCSU's course offerings and sections"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["ncsu"]
+license = {file = "LICENSE"}
+dependencies = [
+    "beautifulsoup4==4.12.3",
+    "bs4==0.0.2",
+    "certifi==2024.2.2",
+    "charset-normalizer==3.3.2",
+    "idna==3.7",
+    "requests==2.31.0",
+    "soupsieve==2.5",
+    "urllib3==2.2.1"
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ncsu_courses.__version__"}
