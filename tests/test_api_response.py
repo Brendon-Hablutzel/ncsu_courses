@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from ncsu_courses.util import get_course_html
+from ncsu_courses.util import _get_course_html
 from ncsu_courses.term import Term, Session
 from ncsu_courses.subjects import get_all_subjects
 
@@ -14,7 +14,7 @@ def test_api_course_equals_expected(expected_f22_csc_course_html):
 
     subject = "CSC - Computer Science"
     term = Term(22, Session.Fall)
-    course_html = get_course_html(subject, term)
+    course_html = _get_course_html(subject, term)
     course_soup = BeautifulSoup(course_html, 'html.parser')
 
     assert expected_course_soup.encode_contents() == course_soup.encode_contents()

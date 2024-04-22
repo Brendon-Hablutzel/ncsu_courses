@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from dataclasses import dataclass
 import datetime
 from enum import Enum
-from ncsu_courses.util import get_course_html, course_html_to_courses_soup, course_soup_to_sections_soup
+from ncsu_courses.util import _get_course_html, _course_html_to_courses_soup, _course_soup_to_sections_soup
 from ncsu_courses.term import Term
 from typing import Generator
 
@@ -150,7 +150,7 @@ class Section:
         }
 
 
-def parse_section_html_soup(
+def _parse_section_html_soup(
     course_curriculum: str,
     course_code: int,
     section_soup: BeautifulSoup
@@ -249,16 +249,16 @@ def get_sections(subject: str, term: Term, course_code: int | None = None) -> Ge
     the given subject during the given term.
     '''
 
-    course_html = get_course_html(subject, term, course_code)
+    course_html = _get_course_html(subject, term, course_code)
 
-    courses_soup = course_html_to_courses_soup(course_html)
+    courses_soup = _course_html_to_courses_soup(course_html)
 
     for course in courses_soup:
         course_info = course.get("id").split("-")
         curriculum = course_info[0]
         code = int(course_info[1])
 
-        sections = course_soup_to_sections_soup(course)
+        sections = _course_soup_to_sections_soup(course)
 
         for section in sections:
-            yield parse_section_html_soup(curriculum, code, section)
+            yield _parse_section_html_soup(curriculum, code, section)

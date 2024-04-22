@@ -6,7 +6,7 @@ from typing import Iterable
 COURSES_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/search.php"
 
 
-def get_course_html(subject: str, term: Term, course_code: int | None = None) -> str:
+def _get_course_html(subject: str, term: Term, course_code: int | None = None) -> str:
     '''
     Returns the API's generated html containing all of the courses and sections
     for the given subject during the given term. Term number is generated using
@@ -40,13 +40,13 @@ def get_course_html(subject: str, term: Term, course_code: int | None = None) ->
     return html
 
 
-def course_html_to_courses_soup(html: str) -> Iterable[BeautifulSoup]:
+def _course_html_to_courses_soup(html: str) -> Iterable[BeautifulSoup]:
     soup = BeautifulSoup(html, 'html.parser')
 
     return soup.find_all(class_="course")
 
 
-def course_soup_to_sections_soup(course_soup: BeautifulSoup) -> Iterable[BeautifulSoup]:
+def _course_soup_to_sections_soup(course_soup: BeautifulSoup) -> Iterable[BeautifulSoup]:
     sections = course_soup.find(
         class_="section-table").findChildren("tr", recursive=False)
     return sections

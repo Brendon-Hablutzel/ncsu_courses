@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from dataclasses import dataclass
-from ncsu_courses.util import get_course_html, course_html_to_courses_soup
+from ncsu_courses.util import _get_course_html, _course_html_to_courses_soup
 from ncsu_courses.term import Term
 from typing import Generator
 
@@ -33,7 +33,7 @@ class Course:
         }
 
 
-def parse_course_html_soup(subject: str, course_soup: BeautifulSoup) -> Course:
+def _parse_course_html_soup(subject: str, course_soup: BeautifulSoup) -> Course:
     '''
     Takes a BeautifulSoup representation of a course and parses it into
     a Course object.
@@ -77,9 +77,9 @@ def get_courses(subject: str, term: Term, course_code: int | None = None) -> Gen
     the given term.
     '''
 
-    course_html = get_course_html(subject, term, course_code)
+    course_html = _get_course_html(subject, term, course_code)
 
-    courses_soup = course_html_to_courses_soup(course_html)
+    courses_soup = _course_html_to_courses_soup(course_html)
 
     for course in courses_soup:
-        yield parse_course_html_soup(subject, course)
+        yield _parse_course_html_soup(subject, course)
