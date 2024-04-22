@@ -18,6 +18,20 @@ class Course:
     num_sections: int
     units: int | tuple[int, int]
 
+    def to_dict(self) -> dict:
+        '''
+        Returns the given course's dictionary representation.
+        '''
+        return {
+            "subject": self.subject,
+            "course_curriculum": self.course_curriculum,
+            "course_code": self.course_code,
+            "title": self.title,
+            "description": self.description,
+            "num_sections": self.num_sections,
+            "units": self.units if type(self.units) == int else [self.units[0], self.units[1]]
+        }
+
 
 def parse_course_html_soup(subject: str, course_soup: BeautifulSoup) -> Course:
     '''

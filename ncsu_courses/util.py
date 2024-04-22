@@ -10,7 +10,8 @@ def get_course_html(subject: str, term: Term, course_code: int | None = None) ->
     '''
     Returns the API's generated html containing all of the courses and sections
     for the given subject during the given term. Term number is generated using
-    the get_term_number(year, session) function.
+    the get_term_number(year, session) function. If filtering for a specific course,
+    use course_code, otherwise, leave it as None.
     '''
 
     if course_code == None:

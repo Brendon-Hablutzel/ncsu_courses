@@ -1,5 +1,5 @@
 venv/
 __pycache__/
-requirements.txt
 dist/
 *.egg-info
+.pytest_cache/

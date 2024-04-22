@@ -127,9 +127,9 @@ class Section:
     meeting_days: list[MeetingDay]
     location: str | None  # change this to an enum later?
 
-    def to_json(self) -> dict:
+    def to_dict(self) -> dict:
         '''
-        Returns the given section's JSON representation.
+        Returns the given section's dictionary representation.
         '''
         return {
             "curriculum": self.course_curriculum,
