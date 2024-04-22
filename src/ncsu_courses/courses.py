@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from dataclasses import dataclass
-from ncsu_courses.util import get_course_html
+from ncsu_courses.util import get_course_html, course_html_to_courses_soup
 from ncsu_courses.term import Term
 from typing import Generator
 
@@ -65,8 +65,7 @@ def get_all_courses(subject: str, term: Term) -> Generator[Course, None, None]:
 
     course_html = get_course_html(subject, term)
 
-    soup = BeautifulSoup(course_html, 'html.parser')
+    courses_soup = course_html_to_courses_soup(course_html)
 
-    courses = soup.find_all(class_="course")
-    for course in courses:
+    for course in courses_soup:
         yield parse_course_html_soup(subject, course)

@@ -1,5 +1,7 @@
 import requests
 from ncsu_courses.term import Term
+from bs4 import BeautifulSoup
+from typing import Iterable
 
 COURSES_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/search.php"
 
@@ -29,3 +31,15 @@ def get_course_html(subject: str, term: Term) -> str:
     res = requests.post(COURSES_URL, data=payload).json()
     html = res['html']
     return html
+
+
+def course_html_to_courses_soup(html: str) -> Iterable[BeautifulSoup]:
+    soup = BeautifulSoup(html, 'html.parser')
+
+    return soup.find_all(class_="course")
+
+
+def course_soup_to_sections_soup(course_soup: BeautifulSoup) -> Iterable[BeautifulSoup]:
+    sections = course_soup.find(
+        class_="section-table").findChildren("tr", recursive=False)
+    return sections
