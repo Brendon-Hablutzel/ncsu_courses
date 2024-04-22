@@ -243,13 +243,13 @@ def parse_section_html_soup(
     )
 
 
-def get_all_sections(subject: str, term: Term) -> Generator[Section, None, None]:
+def get_sections(subject: str, term: Term, course_code: int | None = None) -> Generator[Section, None, None]:
     '''
     Returns a generator of parsed sections of all courses associated with 
     the given subject during the given term.
     '''
 
-    course_html = get_course_html(subject, term)
+    course_html = get_course_html(subject, term, course_code)
 
     courses_soup = course_html_to_courses_soup(course_html)
 

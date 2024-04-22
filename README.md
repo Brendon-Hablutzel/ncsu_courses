@@ -6,11 +6,11 @@ This library uses the same API that [this](https://webappprd.acs.ncsu.edu/php/co
 
 ## Courses
 
-Use `ncsu_courses.courses.get_all_courses(subject, term)` to get all courses for a given subject during the given term. A course has data such as a curriculum and code, a description, title, etc.
+Use `ncsu_courses.courses.get_courses(subject, term)` to get all courses for a given subject during the given term. A course has data such as a curriculum and code, a description, title, etc.
 
 ## Sections
 
-A section of a course is a specific instance of the course being offered during a certain term. A section contains information such as instructor, meeting days and times, meeting location, seats, etc.
+A section of a course is a specific instance of the course being offered during a certain term. A section contains information such as instructor, meeting days and times, meeting location, seats, etc. Use `ncsu_courses.sections.get_sections(subject, term)` to get all sections for all classes of the given subject during the given term.
 
 ## Subjects
 

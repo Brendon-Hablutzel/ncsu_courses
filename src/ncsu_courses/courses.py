@@ -57,13 +57,13 @@ def parse_course_html_soup(subject: str, course_soup: BeautifulSoup) -> Course:
     )
 
 
-def get_all_courses(subject: str, term: Term) -> Generator[Course, None, None]:
+def get_courses(subject: str, term: Term, course_code: int | None = None) -> Generator[Course, None, None]:
     '''
     Returns a generator of parsed courses of the given subject during
     the given term.
     '''
 
-    course_html = get_course_html(subject, term)
+    course_html = get_course_html(subject, term, course_code)
 
     courses_soup = course_html_to_courses_soup(course_html)
 
