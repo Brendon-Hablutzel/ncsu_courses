@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  build-and-test:
+  test-and-publish:
 
     runs-on: ubuntu-latest
 
@@ -36,6 +36,10 @@ jobs:
 
     - name: Run tests with pytest
       run: python -m poetry run python -m pytest -v
+
+    - run: poetry config pypi-token.pypi ${{ secrets.PYPI_API_KEY }}
+    - name: Build and publish to PyPI
+      run: poetry publish --build
         
       
     
