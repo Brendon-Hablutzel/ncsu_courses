@@ -1,4 +1,4 @@
-name: Python Poetry CI
+name: Python Poetry CI - Build, Test, and Publish to PyPI
 
 on:
   push:
