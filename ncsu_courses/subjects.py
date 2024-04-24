@@ -1,5 +1,6 @@
 import requests
 from ncsu_courses.term import Term
+from ncsu_courses._api import API
 
 SUBJECTS_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/subjects.php"
 
@@ -10,12 +11,4 @@ def get_all_subjects(term: Term) -> list[str]:
     current term.
     '''
 
-    payload = {
-        "strm": term.get_term_number()
-    }
-
-    res = requests.post(SUBJECTS_URL, data=payload).json()
-
-    subjects = res['subj_js']
-
-    return subjects
+    return API.get_subjects_list(term)
