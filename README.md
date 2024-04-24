@@ -10,7 +10,7 @@ Use `ncsu_courses.courses.get_courses(subject, term)` to get all courses for a g
 
 ## Sections
 
-A section of a course is a specific instance of the course being offered during a certain term. A section contains information such as instructor, meeting days and times, meeting location, seats, etc. Use `ncsu_courses.sections.get_sections(subject, term)` to get all sections for all classes of the given subject during the given term.
+A section of a course is a specific instance of the course being offered during a certain term. A section contains information such as instructor, meeting days and times, meeting location, seats, etc. Use `ncsu_courses.courses.get_sections(subject, term)` to get all sections for all classes of the given subject during the given term.
 
 ## Subjects
 
