@@ -1,8 +1,10 @@
 from ncsu_courses.term import Term, Session
 from ncsu_courses._api import API
 from bs4 import BeautifulSoup
+import pytest
 
 
+@pytest.mark.skip(reason="flaky test, relies on a network call")
 def test_api_course_equals_expected(expected_f22_csc_course_html):
     '''
     Assert that the API's returned course HTML equals the expected
@@ -22,6 +24,7 @@ def test_api_course_equals_expected(expected_f22_csc_course_html):
     assert expected_course_soup.encode_contents() == course_soup.encode_contents()
 
 
+@pytest.mark.skip(reason="flaky test, relies on a network call")
 def test_api_subjects_equals_expected(expected_f22_subjects):
     '''
     Assert that the API's returned array of subjects equals the expected

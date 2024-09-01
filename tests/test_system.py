@@ -1,4 +1,4 @@
-from ncsu_courses.courses import get_courses
+from ncsu_courses.classes import get_courses
 from ncsu_courses.term import Term, Session
 from tests.util import assert_dicts_equals
 
