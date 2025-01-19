@@ -21,7 +21,7 @@ def expected_f22_csc_course_dicts(test_resources_dir):
     data_filepath = os.path.join(test_resources_dir, "f22_csc_courses.json")
     with open(data_filepath, "r") as f:
         obj = json.load(f)
-    return obj['courses']
+    return obj["courses"]
 
 
 @pytest.fixture

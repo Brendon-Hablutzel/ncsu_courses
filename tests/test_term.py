@@ -2,9 +2,9 @@ from ncsu_courses.term import Term, Session
 
 
 def test_term_numbers():
-    '''
+    """
     Use the expected term values from the API and compare them to the computed values
-    '''
+    """
     expected_spring_2015 = 2151
     spring_2015 = Term(15, Session.Spring).get_term_number()
     assert expected_spring_2015 == spring_2015

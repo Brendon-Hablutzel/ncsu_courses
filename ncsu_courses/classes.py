@@ -6,11 +6,13 @@ from ncsu_courses._parsers import Parser
 from ncsu_courses.datatypes import Course
 
 
-def get_courses(subject: str, term: Term, course_code: int | None = None) -> Generator[Course, None, None]:
-    '''
+def get_courses(
+    subject: str, term: Term, course_code: int | None = None
+) -> Generator[Course, None, None]:
+    """
     Returns a generator of parsed courses of the given subject during
     the given term.
-    '''
+    """
 
     course_html = API.get_course_html(subject, term, course_code)
 
@@ -21,11 +23,13 @@ def get_courses(subject: str, term: Term, course_code: int | None = None) -> Gen
         yield course
 
 
-def get_sections(subject: str, term: Term, course_code: int | None = None) -> Generator[Section, None, None]:
-    '''
-    Returns a generator of parsed sections of all courses associated with 
+def get_sections(
+    subject: str, term: Term, course_code: int | None = None
+) -> Generator[Section, None, None]:
+    """
+    Returns a generator of parsed sections of all courses associated with
     the given subject during the given term.
-    '''
+    """
 
     course_html = API.get_course_html(subject, term, course_code)
 

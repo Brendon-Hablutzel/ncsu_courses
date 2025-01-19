@@ -7,15 +7,17 @@ SUBJECTS_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/subjects.php"
 
 class API:
     @staticmethod
-    def get_course_html(subject: str, term: Term, course_code: int | None = None) -> str:
-        '''
+    def get_course_html(
+        subject: str, term: Term, course_code: int | None = None
+    ) -> str:
+        """
         Returns the API's generated html containing all of the courses and sections
         for the given subject during the given term. Term number is generated using
         the get_term_number(year, session) function. If filtering for a specific course,
         use course_code, otherwise, leave it as None.
-        '''
+        """
 
-        if course_code == None:
+        if course_code is None:
             course_code = ""
         else:
             course_code = str(course_code)
@@ -30,29 +32,27 @@ class API:
             "start-time": "",
             "end-time-inequality": "<=",
             "end-time": "",
-            "instructor-name": ""
+            "instructor-name": "",
             # below is a argument passed with requests made from the frontend,
             # but the API seems to work without it
             # "current_strm": 2248
         }
 
         res = requests.post(COURSES_URL, data=payload).json()
-        html = res['html']
+        html = res["html"]
         return html
 
     @staticmethod
     def get_subjects_list(term: Term) -> list[str]:
-        '''
+        """
         Gets all the subjects that courses may be listed under for the
         current term.
-        '''
+        """
 
-        payload = {
-            "strm": term.get_term_number()
-        }
+        payload = {"strm": term.get_term_number()}
 
         res = requests.post(SUBJECTS_URL, data=payload).json()
 
-        subjects = res['subj_js']
+        subjects = res["subj_js"]
 
         return subjects

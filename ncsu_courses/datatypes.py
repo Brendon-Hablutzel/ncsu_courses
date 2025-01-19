@@ -5,9 +5,10 @@ import datetime
 
 @dataclass
 class Course:
-    '''
+    """
     Represents a parsed course.
-    '''
+    """
+
     subject: str
     course_curriculum: str
     course_code: int
@@ -17,9 +18,9 @@ class Course:
     units: int | tuple[int, int]
 
     def to_dict(self) -> dict:
-        '''
+        """
         Returns the given course's dictionary representation.
-        '''
+        """
         return {
             "subject": self.subject,
             "course_curriculum": self.course_curriculum,
@@ -27,14 +28,16 @@ class Course:
             "title": self.title,
             "description": self.description,
             "num_sections": self.num_sections,
-            "units": self.units if type(self.units) == int else [self.units[0], self.units[1]]
+            "units": self.units
+            if type(self.units) is int
+            else [self.units[0], self.units[1]],
         }
 
 
 class MeetingDay(Enum):
-    '''
+    """
     Represents a possible meeting day for a section.
-    '''
+    """
 
     Monday = "Monday"
     Tuesday = "Tuesday"
@@ -45,9 +48,9 @@ class MeetingDay(Enum):
     Sunday = "Sunday"
 
     def from_str(string):
-        '''
+        """
         Takes a string meeting day and converts it to its enum variant.
-        '''
+        """
         match string:
             case "Monday":
                 return MeetingDay.Monday
@@ -65,13 +68,15 @@ class MeetingDay(Enum):
                 return MeetingDay.Sunday
             case other:
                 raise AttributeError(
-                    "could not find corresponding meeting day for:", other)
+                    "could not find corresponding meeting day for:", other
+                )
 
 
 class Component(Enum):
-    '''
+    """
     Represents a section component type, such as Lab or Lecture.
-    '''
+    """
+
     Lecture = "Lec"
     Lab = "Lab"
     Research = "Res"
@@ -80,10 +85,10 @@ class Component(Enum):
     Thesis = "The"  # uncertain
 
     def from_str(string):
-        '''
+        """
         Takes a string section component and returns its corresponding
         enum variant.
-        '''
+        """
         match string:
             case "Lec":
                 return Component.Lecture
@@ -99,23 +104,25 @@ class Component(Enum):
                 return Component.Thesis
             case other:
                 raise AttributeError(
-                    "could not find corresponding course component for:", other)
+                    "could not find corresponding course component for:", other
+                )
 
 
 class Availability(Enum):
-    '''
+    """
     Represents the availability for a section, such as Open or Closed.
-    '''
+    """
+
     Closed = "Closed"
     Waitlist = "Waitlist"
     Open = "Open"
     Reserved = "Reserved"
 
     def from_str(string):
-        '''
-        Takes a string availability status and returns its corresponding 
+        """
+        Takes a string availability status and returns its corresponding
         enum variant.
-        '''
+        """
         match string:
             case "Closed":
                 return Availability.Closed
@@ -127,14 +134,16 @@ class Availability(Enum):
                 return Availability.Reserved
             case other:
                 raise AttributeError(
-                    "could not find corresponding availability for:", other)
+                    "could not find corresponding availability for:", other
+                )
 
 
 @dataclass
 class Section:
-    '''
+    """
     Represents a parsed section of a course.
-    '''
+    """
+
     course_curriculum: str
     course_code: int
     section: str
@@ -152,9 +161,9 @@ class Section:
     location: str | None  # change this to an enum later?
 
     def to_dict(self) -> dict:
-        '''
+        """
         Returns the given section's dictionary representation.
-        '''
+        """
         return {
             "curriculum": self.course_curriculum,
             "code": self.course_code,
@@ -170,5 +179,5 @@ class Section:
             "start_date": self.start_date,
             "end_date": self.end_date,
             "meeting_days": self.meeting_days,
-            "location": self.location
+            "location": self.location,
         }

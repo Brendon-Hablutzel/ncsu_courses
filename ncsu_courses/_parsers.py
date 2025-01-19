@@ -7,7 +7,7 @@ import datetime
 
 class HTMLParser:
     def __init__(self, html_str: str, subject: str):
-        self.soup = BeautifulSoup(html_str, 'html.parser')
+        self.soup = BeautifulSoup(html_str, "html.parser")
         self.subject = subject
 
     def get_courses_soup(self) -> Iterable[BeautifulSoup]:
@@ -27,10 +27,10 @@ class CourseParser:
         return (curriculum, code)
 
     def get_parsed_course(self) -> Course:
-        '''
+        """
         Takes a BeautifulSoup representation of a course and parses it into
         a Course object.
-        '''
+        """
         course_details = self.course_soup.find("h1")
         title = course_details.find("small").text
         units = course_details.find(class_="units").text.split("Units: ")[1]
@@ -45,8 +45,9 @@ class CourseParser:
 
         description = self.course_soup.find("p").text
 
-        sections = self.course_soup.find(
-            class_="section-table").findChildren("tr", recursive=False)
+        sections = self.course_soup.find(class_="section-table").findChildren(
+            "tr", recursive=False
+        )
         num_sections = len(sections)
 
         return Course(
@@ -56,25 +57,28 @@ class CourseParser:
             title,
             description,
             num_sections,
-            units
+            units,
         )
 
     def get_sections_soup(self, course_soup: BeautifulSoup) -> list[BeautifulSoup]:
-        return course_soup.find(
-            class_="section-table").findChildren("tr", recursive=False)
+        return course_soup.find(class_="section-table").findChildren(
+            "tr", recursive=False
+        )
 
 
 class SectionParser:
-    def __init__(self, section_soup: BeautifulSoup, course_curriculum: str, course_code: int):
+    def __init__(
+        self, section_soup: BeautifulSoup, course_curriculum: str, course_code: int
+    ):
         self.section_soup = section_soup
         self.course_curriculum = course_curriculum
         self.course_code = course_code
 
     def get_parsed_section(self) -> Section:
-        '''
+        """
         Takes a BeautifulSoup representation of a section and returns a
         Section object.
-        '''
+        """
         data_columns = self.section_soup.find_all("td")
 
         section = data_columns[0].text
@@ -96,16 +100,18 @@ class SectionParser:
                 open_seats = int(seats_info[0])
                 seats_info = seats_info[1].split(" ")
                 total_seats = int(seats_info[0])
-                num_on_waitlist = int(
-                    seats_info[1].replace("(", "").replace(")", ""))
+                num_on_waitlist = int(seats_info[1].replace("(", "").replace(")", ""))
             case other:
                 raise KeyError("invalid availability status:", other)
 
         meeting_info = data_columns[4]
 
         if meeting_info.find(class_="weekdisplay") is not None:
-            meeting_day_strs = (day.get("title").split(" - ")[0]
-                                for day in meeting_info.find_all("abbr") if "meet" in day.get("title"))
+            meeting_day_strs = (
+                day.get("title").split(" - ")[0]
+                for day in meeting_info.find_all("abbr")
+                if "meet" in day.get("title")
+            )
             meeting_days = list(map(MeetingDay.from_str, meeting_day_strs))
 
             meeting_time = list(meeting_info.strings)[-1].split("-")
@@ -115,12 +121,10 @@ class SectionParser:
                 end_time = None
             else:
                 start_time = meeting_time[0].strip()
-                start_time = datetime.datetime.strptime(
-                    start_time, "%I:%M %p").time()
+                start_time = datetime.datetime.strptime(start_time, "%I:%M %p").time()
 
                 end_time = meeting_time[1].strip()
-                end_time = datetime.datetime.strptime(
-                    end_time, "%I:%M %p").time()
+                end_time = datetime.datetime.strptime(end_time, "%I:%M %p").time()
 
         else:
             meeting_days = []
@@ -156,7 +160,7 @@ class SectionParser:
             start_date,
             end_date,
             meeting_days,
-            location
+            location,
         )
 
 
@@ -180,7 +184,9 @@ class Parser:
         for course_parser in course_parsers:
             sections = course_parser.get_sections_soup()
             for section in sections:
-                yield SectionParser(section, course_parser.course_curriculum, course_parser.course_code)
+                yield SectionParser(
+                    section, course_parser.course_curriculum, course_parser.course_code
+                )
 
     def get_sections(self):
         section_parsers = self._get_section_parsers()
