@@ -1,6 +1,12 @@
 from bs4 import BeautifulSoup
-from ncsu_courses.datatypes import Course
-from ncsu_courses.datatypes import Section, Component, MeetingDay, Availability
+from ncsu_courses.datatypes import (
+    Section,
+    Component,
+    MeetingDay,
+    Availability,
+    Course,
+    CatalogCourse,
+)
 from typing import Generator, Iterable
 import datetime
 
@@ -192,3 +198,25 @@ class Parser:
         section_parsers = self._get_section_parsers()
         for parser in section_parsers:
             yield parser.get_parsed_section()
+
+
+def dict_to_catalog_course(course_code: str, course: dict) -> CatalogCourse:
+    return CatalogCourse(
+        course_code,
+        course["course_id"],
+        course["course_title"],
+        int(course["units_min"]),
+        int(course["units_max"]),
+        int(course["offer_number"]),
+        course["acad_org"],
+        course["subject"],
+        int(course["catalog_number"]),
+        course["descr_formal"],
+        course["dept_link"],
+        course["reqs"],
+        course["course_name"],
+        course["descr"],
+        course["attrs"],
+        course["semesters"],
+        course["cross_crse"],
+    )

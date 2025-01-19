@@ -19,3 +19,7 @@ Subjects represent broad areas of study. Each course's name begins with the lett
 ## Terms
 
 A term is identified by a year and a session (Fall, Spring, Summer 1, or Summer 2). Use `ncsu_courses.term.Term` to represent a specific term. Terms are passed to the API as integers representing a combination of year and session, and the `Term` object handles this internally.
+
+## Catalog Courses
+
+A catalog course is a course listed in the catalog, not associated with any specific term. Use `ncsu_courses.catalog.get_catalog_courses(subject)` to get a generator over all catalog courses.
