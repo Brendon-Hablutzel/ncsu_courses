@@ -3,6 +3,7 @@ from ncsu_courses.term import Term
 
 COURSES_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/search.php"
 SUBJECTS_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/subjects.php"
+CATALOG_URL = "https://webappprd.acs.ncsu.edu/php/coursecat/directory_search.php"
 
 
 class API:
@@ -56,3 +57,19 @@ class API:
         subjects = res["subj_js"]
 
         return subjects
+
+    @staticmethod
+    def get_catalog_courses_by_subject(
+        subject: str, career: str | None = None
+    ) -> list[dict]:
+        """
+        Returns a list of objects representing all of the courses in the catalog
+        for the given subject. Career may be specified (UGRD = undergraduate)
+        """
+
+        payload = {"search_val": subject, "type": "subject", "career": career}
+
+        res = requests.post(CATALOG_URL, data=payload).json()
+
+        courses = res["courses"]
+        return courses

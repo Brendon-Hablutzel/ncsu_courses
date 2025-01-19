@@ -4,6 +4,55 @@ import datetime
 
 
 @dataclass
+class CatalogCourse:
+    """
+    Represents a course from the catalog (i.e., not associated with a specific term)
+    """
+
+    course_code: str
+    course_id: str
+    course_title: str
+    units_min: int
+    units_max: int
+    offer_number: int
+    acad_org: str
+    subject: str
+    catalog_number: int
+    descr_formal: str
+    dept_link: str
+    reqs: str
+    course_name: str
+    descr: str
+    attrs: list[str]
+    semesters: list[str]
+    cross_crse: list[str]
+
+    def to_dict(self) -> dict:
+        """
+        Returns the catalog course's dictionary representation
+        """
+        return {
+            "course_code": self.course_code,
+            "course_id": self.course_id,
+            "course_title": self.course_title,
+            "units_min": self.units_min,
+            "units_max": self.units_max,
+            "offer_number": self.offer_number,
+            "acad_org": self.acad_org,
+            "subject": self.subject,
+            "catalog_number": self.catalog_number,
+            "descr_formal": self.descr_formal,
+            "dept_link": self.dept_link,
+            "reqs": self.reqs,
+            "course_name": self.course_name,
+            "descr": self.descr,
+            "attrs": self.attrs,
+            "semesters": self.semesters,
+            "cross_crse": self.cross_crse,
+        }
+
+
+@dataclass
 class Course:
     """
     Represents a parsed course.

@@ -1,790 +1,733 @@
 {
-    "courses": [
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 110,
-            "title": "Computer Science Principles - The Beauty and Joy of Computing",
-            "description": "This course explores the principles of computer science while emphasizing the relevance of computing to students and to society. Students will learn about beautiful computing applications that have changed the world and how computing empowers discovery and innovation. Students will learn the joy of programming a computer using a friendly, graphical language, capable of creating apps, simulations, and games. Students who complete the course will be able to solve meaningful problems with computers, apply design processes to take an idea from concept to implementation, develop a computer program, and analyze computing artifacts from both design and computing perspectives. Students will complete a substantial team programming project related to their interests. 20% of seats will be restricted to Computer Science or CS-Intended students. Enrolling students must not have received credit for or a grade in CSC 116 or CSC 200.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 111,
-            "title": "Introduction to Computing: Python",
-            "description": "Computation problem solving through writing Python programs. Particular elements include: careful development of Python programs from specifications; documentation and style; appropriate use of control structures, data types and subprograms; abstractions and verification; engineering applications. Most seats reserved for Civil, Construction, and Environmental Engineering majors.",
-            "num_sections": 6,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 113,
-            "title": "Introduction to Computing - MATLAB",
-            "description": "Problem solving through writing MATLAB programs. Particular elements include: careful development of MATLAB programs from specifications; documentation and style; appropriate use of control structures, data types and subprograms; abstractions and verification; engineering applications. Most seats reserved for Aerospace, Mechanical, and Biomedical Engineering majors.",
-            "num_sections": 8,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 116,
-            "title": "Introduction to Computing - Java",
-            "description": "An introductory course in computing in Java. Emphasis on algorithm development and problem solving. Careful and methodical development of Java applications from specifications; documentation and style; appropriate use of control structures; classes and methods; data types and data abstraction; object-oriented programming and design; software testing. Most seats reserved for Computer Science majors.",
-            "num_sections": 7,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 216,
-            "title": "Software Development Fundamentals",
-            "description": "The second course in computing, intended for majors and minors. Emphasis is on exploring encapsulation; polymorphism; composition; inheritance; finite state machines; linear data structures [including array lists, linked lists, stacks, queues, and the tradeoffs in implementation]; and recursion [including recursive linked lists] in the context of the software development lifecycle including the processes and practices for designing, implementing, and testing high quality software.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 217,
-            "title": "Software Development Fundamentals Lab",
-            "description": "Laboratory course to accompany CSC 216 lecture course. Application of the software processes and practices to design, implement, and test the development of software solutions requiring composition; inheritance; finite state machines; and linear data structures, including recursive linked lists.",
-            "num_sections": 15,
-            "units": 1
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 226,
-            "title": "Discrete Mathematics for Computer Scientists",
-            "description": "Propositional logic and predicate calculus. Logic gates and circuits. Methods of proof. Mathematical induction. Recursive definitions and functions. Solving recurrences. Asymptotic growth of functions. Elementary combinatorics and probability. Introduction to graph theory. Binary relations, including posets and equivalence relations. This course assumes knowledge of topics covered in high-school Algebra I and II. Most seats reserved for CSC and CPE majors and Computer Programming minors.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 230,
-            "title": "C and Software Tools",
-            "description": "In this course, students will develop skills in several important areas. First, we'll get some experience working in C, a language that lets us think like procedural rather than object-oriented developers. Also, being a fairly low-level language, C lets us see and control more of what's going on in the hardware. This can help us think about using the hardware more effectively, whether we're actually programming in C or in a higher-level language. While we learn C, we'll also learn about tools and techniques that help us build, manage, debug and analyze software projects.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 236,
-            "title": "Computer Organization and Assembly Language for Computer Scientists",
-            "description": "Computer architecture topics required by professional software developers, including binary and hexadecimal numbers, hardware component organization, machine instruction sets, assembler language programming, linking assembler language with high-level languages, program testing, computer hardware design issues, computer software design issues, and trends in current computer design.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 246,
-            "title": "Concepts and Facilities of Operating Systems for Computer Scientists",
-            "description": "This course prepares students to understand fundamental issues in operating systems. Students will be introduced to multi-threading, synchronization, scheduling, virtual memory, security and communication/networking. The material will be covered in terms of operating systems services exported by the operating systems interface. Current trends will be discussed to give a better understanding of future developments likely to be included in operating systems.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 295,
-            "title": "Special Topics in Computer Science",
-            "description": "Special topics in CSC at the early undergraduate level.",
-            "num_sections": 2,
-            "units": [
-                1,
-                3
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 297,
-            "title": "Cybersecurity Topics",
-            "description": "Introductory cybersecurity topics that may cover areas like cybersecurity policy, law, attacks and defenses, ethics, forensics, social engineering, usability, or privacy. Topics will vary by section and semester. Course may be taken multiple times only if topic is different.",
-            "num_sections": 3,
-            "units": 1
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 298,
-            "title": "Introduction to Computer Science Research Methods",
-            "description": "Introduction to computer science research methods for first or second year Computer Science undergraduate students. Topics include creating research problems, reading research papers, conducting a literature review, designing research studies, qualitative and quantitative data analysis, communication of research findings, teamwork, and research directions. Students will work on teams to complete a mentored research proposal.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 299,
-            "title": "Mentored Research in Computer Science",
-            "description": "Mentored research experience in Computer Science. The experience must be arranged in advance by the student and approved by the Department of Computer Science prior to enrollment. A minimum of 45 hours must be completed for each credit hour earned. A final report approved by the faculty mentor and the department are required. Individualized/Independent Research courses require a \"Course Agreement for Students Enrolled in Non-Standard Courses\" to be completed by the student and faculty member prior to registration by the department. CSC 299 may not be repeated.",
-            "num_sections": 1,
-            "units": [
-                1,
-                3
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 302,
-            "title": "Introduction to Numerical Methods",
-            "description": "Numerical computations with digital computers; floating point arithmetic and implications of round-off error; Monte Carlo methods. Algorithms and computer techniques for the numerical solution of problems in: function evaluation; zeros of functions; interpolation; numerical differentiation and integration; linear systems of equations; curve fitting; solutions of non-linear equations; optimization.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 316,
-            "title": "Data Structures and Algorithms",
-            "description": "Abstract data types; abstract and implementation-level views of data types. Linear and branching data structures, including stacks, queues, trees, heaps, hash tables, graphs, and others at discretion of instructor. Best, worst, and average case asymptotic time and space complexity as a means of formal analysis of iterative and recursive algorithms.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 326,
-            "title": "Software Engineering",
-            "description": "Application of software engineering methods to develop complex products, including the following skills: quality assurance, project management, requirements analysis, specifications, design, development, testing, production, maintenance, security, privacy, configuration management, build systems, communication, and teaming.",
-            "num_sections": 7,
-            "units": 4
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 333,
-            "title": "Automata, Grammars, and Computability",
-            "description": "Study of three classical formal models of computation--finite state machines, context-free grammars, and Turing machines--and the corresponding families of formal languages. Power and limitations of each model. Parsing. Non-determinism. The Halting Problem and undecidability. The classes P and NP, and NP-completeness.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 342,
-            "title": "Applied Web-based Client-Server Computing",
-            "description": "This course explores client-server computing on the World Wide Web. The course focuses on the architecture of web-based client-server applications and accepted industry practices. Students work in teams to develop web applications with dynamic content delivery.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 379,
-            "title": "Ethics in Computing",
-            "description": "Computers have become ubiquitous and advances in computing power and accessibility have enabled applications that were speculation a generation ago. Computing professionals, as the gatekeepers of this technology, have significant responsibilities to society. This course examines the role of the computing professional in modern society, focusing on the ethical and moral responsibilities of the profession. Additional topics will include moral/ethical decision-making, whistle-blowing, global organizations, licensure, and emerging technologies.",
-            "num_sections": 2,
-            "units": 1
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 401,
-            "title": "Data and Computer Communications Networks",
-            "description": "This course provides an introduction to fundamental concepts in the design and implementation of computer networks, their protocols, and applications with a particular emphasis on the Internet's TCP/IP, OSPF/BGP, Ethernet, IEEE 802.11 protocol suite. Topics to be covered include: network architectures, packet/circuit switching, network applications, sockets, reliable data transport, flow control, congestion control, routing, link protocols, addressing, local area networks, wireless networks, mobility, management, network security, software defined networking and the design of network services. Credit is not allowed for both CSC 401 and ECE 407.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 411,
-            "title": "Introduction to Artificial Intelligence",
-            "description": "Overview and definitions of Artificial Intelligence [AI]. Search, including depth-first and breadth-first techniques with backtracking. Knowledge representation with emphasis on logical methods, Horn databases, resolution, quantification, unification, skolemization and control issues; non-monotonic reasoning; frames; semantic nets. AI systems, including planning, learning, natural language and expert systems. An AI programming language may be taught at the instructor's discretion.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 412,
-            "title": "Compiler Construction",
-            "description": "The course will concentrate on the theory and practice of compiler-writing. Topics to be covered will include techniques for parsing, code generation, and optimization. Furthermore, the theoretical underpinnings of compilers such as LR parsing will be covered. Finally, the students will be exposed to compiler construction tools, and will obtain hands-on experience in building a compiler for a small programming language. Besides the listed prerequisite courses, other helpful courses include CSC 253, CSC 224, CSC 234, and MA 121.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 415,
-            "title": "Software Security",
-            "description": "Introduces students to the discipline of designing, developing, and testing secure and dependable software-based systems. Students will learn about risks and vulnerabilities, and effective software security techniques. Topics include common vulnerabilities, access control, information leakage, logging, usability, risk analysis, testing, design principles, security policies, and privacy. Project required.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 417,
-            "title": "Theory of Programming Languages",
-            "description": "Theory of programming languages with emphasis on programming language semantics and implementation issues. Formal models of syntax and semantics. Static versus dynamic scoping. Parameter passing mechanisms. Garbage collection. Programming in alternate paradigms such as applicative, functional, logic, and object-oriented programming languages.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 422,
-            "title": "Automated Learning and Data Analysis",
-            "description": "This course provides an introduction to concepts and methods for extracting knowledge or other useful forms of information from data. This activity, also known under names including data mining, knowledge discovery, and exploratory data analysis, plays an important role in modern science, engineering, medicine, business, and government. Students will apply supervised and unsupervised automated learning methods to extract patterns, make predictions and identify groups from data. Students will also learn about the overall process of data collection and analysis that provides the setting for knowledge discovery, and concomitant issues of privacy and security. Examples and projects introduce the students to application areas including electronic commerce, information security, biology, and medicine. Students cannot get credit for both CSC 422 and CSC 522.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 427,
-            "title": "Introduction to Numerical Analysis I",
-            "description": "Theory and practice of computational procedures including approximation of functions by interpolating polynomials, numerical differentiation and integration, and solution of ordinary differential equations including both initial value and boundary value problems. Computer applications and techniques.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 440,
-            "title": "Database Management Systems",
-            "description": "Introduction to database concepts. This course examines the logical organization of databases: the entity-relationship model; the relational data model and its languages. Functional dependencies and normal forms. Design, implementation, and optimization of query languages; security and integrity, concurrency control, transaction processing, and distributed database systems.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 442,
-            "title": "Introduction to Data Science",
-            "description": "Overview of data structures, data lifecycle, statistical inference. Data management, queries, data cleaning, data wrangling. Classification and prediction methods to include linear regression, logistic regression, k-nearest neighbors, classification and regression trees. Association analysis. Clustering methods. Emphasis on analyzing data, use and development of software tools, and comparing methods.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 454,
-            "title": "Human-Computer Interaction",
-            "description": "A survey of concepts and techniques for user interface design and human computer interaction. Emphasizes user-centered design, interface development techniques, and usability evaluation.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 455,
-            "title": "Social Computing and Decentralized Artificial Intelligence",
-            "description": "This course surveys the field of social computing, introducing its key concepts, paradigms, and techniques. Specific topics are selected from the following list: social media and social network analytics, sociological underpinnings, crowdsourcing and surveys, human computation, social mobilization, human decision making, voting theory, judgment aggregation, prediction markets, economic mechanisms, incentives, organizational modeling, argumentation, contracts, norms, mobility and social context, sociotechnical systems, and software engineering with and for social computing. This course incorporates ideas from diverse disciplines [including sociology, psychology, law, economics, political science, logic, statistics, philosophy, business] to provide essential background for future computer science careers in industry and research.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 461,
-            "title": "Computer Graphics",
-            "description": "Principles of computer graphics with emphasis on two-dimensional and aspects of three-dimensional raster graphics. Topics include: graphics hardware devices, lines and polygons, clipping lines and polygons to windows, graphical user interface, vectors, projections, transformations, polygon fill. Programming projects in C or C++.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 471,
-            "title": "Modern Topics in Cybersecurity",
-            "description": "Exploration of three modern or emerging topics in Cybersecurity beyond the core cybersecurity curriculum. These topics may vary by semester. Enrollment is open to CSC majors only.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 474,
-            "title": "Network Security",
-            "description": "Basic concepts and techniques in information security and management such as risks and vulnerabilities, applied cryptography, authentication, access control, multilevel security, multilateral security, network attacks and defense, intrusion detection, physical security, copyright protection, privacy mechanisms, security management, system assurance and evaluation, and information warfare. Coverage of high-level concepts such as confidentiality, integrity, and availability applied to hardware, software, and data. Credit not allowed for both CSC 474 and CSC 574.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 481,
-            "title": "Game Engine Foundations",
-            "description": "In this course we will examine some of the components of a commercial strength game engine. We will survey different genres of games, using some of the unique design challenges each genre provides as a motivation for an in-depth examination of the affordances games engines provide for designing games of that genre. We will cover topics ranging from data structures, resource management, game loops and logical timing systems, scripting, error logging, and networking. A sequence of programming assignments will lead students through the implementation of their own game engine, which they will use to design their own game.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 486,
-            "title": "Computational Visual Narrative",
-            "description": "Computational Visual Narrative is a project-based course for developing computational media with visual computing tools such as game engines. Within this course we will gain familiarity with the repertoire and practice of individuals involved in the design and development of digital interactive experiences. In the process, you will gain an understanding of the underlying concepts, techniques and technologies of computational and digital systems, software development and its role and potential in narrative practice.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 492,
-            "title": "Senior Design Project",
-            "description": "Application of software engineering principles and basic computer science to the total development of a software system. Consideration of the software system design process, including requirements and design detail. Development and evaluation of a prototype accomplished through design team activity. Comprehensive written and oral project report is required. Open to CSC majors. Restricted to students with 6 hours of Computer Science Restricted Elective.",
-            "num_sections": 5,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 495,
-            "title": "Special Topics in Computer Science",
-            "description": "Topics of current interest in computer science not covered in existing courses. Each special topics course will have one or more prerequisites from the Computer Science core courses. CSC 495 may be repeated for credit if a different topic is chosen.",
-            "num_sections": 1,
-            "units": [
-                1,
-                6
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 498,
-            "title": "Independent Study in Computer Science",
-            "description": "Detailed investigation of computing topics of particular interest to advanced undergraduate computer science majors under faculty direction. Appropriate topics may include software development projects, tutorial work on new or emerging technologies, or exploration of an emerging computing topic. The experience must be arranged in advance by the student and approved by the Department of Computer Science prior to enrollment. A minimum of 45 hours must be completed for each credit hour earned. An independent study proposal and final report approved by the faculty mentor and the department are required. Individualized/Independent Study courses require a \"Course Agreement for Students Enrolled in Non-Standard Courses\" be completed by the student and faculty member prior to registration by the department. At most 6 credit hours of CSC 498 and/or CSC 499 may be applied to degree.",
-            "num_sections": 2,
-            "units": [
-                1,
-                6
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 499,
-            "title": "Independent Research in Computer Science",
-            "description": "Independent investigation of a research problem under the supervision of a faculty member in the Department of Computer Science. The experience must be arranged in advance by the student and approved by the Department of Computer Science prior to enrollment. A minimum of 45 hours must be completed for each credit hour earned. An independent research proposal and final report approved by the faculty mentor and the department are required. Individualized/Independent Research courses require a \"Course Agreement for Students Enrolled in Non-Standard Courses\" to be completed by the student and faculty member prior to registration by the department. At most 6 credit hours of CSC 498 and/or CSC 499 may be applied to degree.",
-            "num_sections": 1,
-            "units": [
-                1,
-                6
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 501,
-            "title": "Operating Systems Principles",
-            "description": "Fundamental issues related to the design of operating systems. Process scheduling and coordination, deadlock, memory management and elements of distributed systems.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 505,
-            "title": "Design and Analysis Of Algorithms",
-            "description": "Algorithm design techniques: use of data structures, divide and conquer, dynamic programming, greedy techniques, local and global search. Complexity and analysis of algorithms: asymptotic analysis, worst case and average case, recurrences, lower bounds, NP-completeness. Algorithms for classical problems including sorting, searching and graph problems [connectivity, shortest paths, minimum spanning trees].",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 506,
-            "title": "Architecture Of Parallel Computers",
-            "description": "The need for parallel and massively parallel computers. Taxonomy of parallel computer architecture, and programming models for parallel architectures. Example parallel algorithms. Shared-memory vs. distributed-memory architectures. Correctness and performance issues. Cache coherence and memory consistency. Bus-based and scalable directory-based multiprocessors. Interconnection-network topologies and switch design. Brief overview of advanced topics such as multiprocessor prefetching and speculative parallel execution. Credit is not allowed for more than one course in this set: ECE 406, ECE 506, CSC 406.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 510,
-            "title": "Software Engineering",
-            "description": "An introduction to software life cycle models; size estimation; cost and schedule estimation; project management; risk management; formal technical reviews; analysis, design, coding and testing methods; configuration management and change control; and software reliability estimation. Emphasis on large development projects. An individual project required following good software engineering practices throughout the semester.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 512,
-            "title": "Compiler Construction",
-            "description": "The course will concentrate on the theory and practice of compiler-writing. Topics to be covered will include techniques for parsing, code generation, and optimization. Furthermore, the theoretical underpinnings of compilers such as LR parsing will be covered. Finally, the students will be exposed to compiler construction tools, and will obtain hands-on experience in building a compiler for a small programming language. Besides the listed prerequisite courses, other helpful courses include CSC 253, CSC 224, CSC 234, and MA 121.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 514,
-            "title": "Foundations of Cryptography",
-            "description": "Cryptography is the study of mathematical techniques for securing digital information, systems and distributed computation against adversarial attacks. In this class you will learn the concepts and the algorithms behind the most used cryptographic protocols: you will learn how to formally define security properties and how to formally prove/disprove that a cryptographic protocol achieves a certain security property. You will also discover that cryptography has a much broader range of applications. It solves absolutely paradoxical problems such as proving knowledge of a secret without ever revealing the secret [zero-knowledge proof], or computing the output of a function without ever knowing the input of the function [secure computation]. Finally, we will look closely at one of the recent popular application of cryptography: the blockchain technology. Additionally, graduate students will study some of the topics in greater depth.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 517,
-            "title": "Object-Oriented Design and Development",
-            "description": "The design of object-oriented systems, using principles such as the GRASP principles, and methodologies such as CRC cards and the Unified Modeling Language [ULM]. Requirements analysis. Design patterns Agile Methods. Static vs. dynamic typing. Metaprogramming. Open-source development practices and tools. Test-first development. Project required, involving contributions to an open-source software project.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 520,
-            "title": "Artificial Intelligence I",
-            "description": "Introduction to and overview of artificial intelligence. Study of AI programming language such as LISP or PROLOG. Elements of AI problem-solving technique. State spaces and search techniques. Logic, theorem proving and associative databases. Introduction to knowledge representation, expert systems and selected topics including natural language processing, vision and robotics.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 522,
-            "title": "Automated Learning and Data Analysis",
-            "description": "This course provides an introduction to concepts and methods for extracting knowledge or other useful forms of information from data. This activity, also known under names including data mining, knowledge discovery, and exploratory data analysis, plays an important role in modern science, engineering, medicine, business, and government. Students will apply supervised and unsupervised automated learning methods to extract patterns, make predictions and identify groups from data. Students will also learn about the overall process of data collection and analysis that provides the setting for knowledge discovery, and concomitant issues of privacy and security. Examples and projects introduce the students to application areas including electronic commerce, information security, biology, and medicine. Students cannot get credit for both CSC 422 and CSC 522.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 530,
-            "title": "Computational Methods for Molecular Biology",
-            "description": "Computer algorithms supporting genomic research: DNA sequence comparison and assembly, hybridization mapping, phylogenetic reconstruction, genome rearrangement, protein folding and threading.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 533,
-            "title": "Privacy in the Digital Age",
-            "description": "Privacy is a growing concern in our modern society. We interact and share our personal information with a wide variety of organizations, including financial and healthcare institutions, web service providers and social networks. Many times such personal information is inappropriately collected, used or shared, often without our awareness. This course introduces privacy in a broad sense, with the aim of providing students an overview of the challenging and emerging research topics in privacy. This course will expose students to many of the issues that privacy engineers, program managers, researchers and designers deal with in industry. ST 370 is recommended but not mandatory.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 540,
-            "title": "Database Management concepts and Systems",
-            "description": "Advanced database concepts. Logical organization of databases: the entity-relationship model; the relational data model and its languages. Functional dependencies and normal forms. Design, implementation, and optimization of query languages; security and integrity, consurrency control, transaction processing, and distributed database systems.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 547,
-            "title": "Cloud Computing Technology",
-            "description": "Study of cloud computing principles, architectures, and actual implementations. Students will learn how to critically evaluate cloud solutions, how to construct and secure a private cloud computing environment based on open source solutions, and how to federate it with external clouds. Performance, security, cost, usability, and utility of cloud computing solutions will be studied both theoretically and in hands-on exercises. Hardware-, infrastructure-, platform-, software-, security-, - \"as-a-service\".",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 554,
-            "title": "Human-Computer Interaction",
-            "description": "Basic theory and concepts of human-computer interaction. Human and computational aspects. Cognitive engineering. Practical HCI skills. Significant historical case studies. Current technology and future directions in user interface development.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 555,
-            "title": "Social Computing and Decentralized Artificial Intelligence",
-            "description": "This course surveys the field of social computing, introducing its key concepts, paradigms, and techniques. Specific topics are selected from the following list: social media and social network analytics, sociological underpinnings, crowdsourcing and surveys, human computation, social mobilization, human decision making, voting theory, judgment aggregation, prediction markets, economic mechanisms, incentives, organizational modeling, argumentation, contracts, norms, mobility and social context, sociotechnical systems, and software engineering with and for social computing. This course incorporates ideas from diverse disciplines [including sociology, psychology, law, economics, political science, logic, statistics, philosophy, business] to provide essential background for future computer science careers in industry and research.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 561,
-            "title": "Principles of Computer Graphics",
-            "description": "Fundamentals of the OpenGL API. 2D and 3D transformations, perspective and orthographic projection, and the mathematical foundations that underlie these concepts. Geometric primitives, clipping, depth buffering, scan conversion, and rasterization. Lighting, shadows, and texture mapping. Curves and surfaces.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 570,
-            "title": "Computer Networks",
-            "description": "General introduction to computer networks. Discussion of protocol principles, local area and wide area networking, OSI stack, TCP/IP and quality of service principles. Detailed discussion of topics in medium access control, error control coding, and flow control mechanisms. Introduction to networking simulation, security, wireless and optical networking.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 573,
-            "title": "Internet Protocols",
-            "description": "Principles and issues underlying provision of wide area connectivity through interconnection of autonomous networks. Internet architecture and protocols today and likely evolution in future. Case studies of particular protocols to demonstrate how fundamental principles applied in practice. Selected examples of networked clinet/server applications to motivate the functional requirements of internetworking. Project required.",
-            "num_sections": 3,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 574,
-            "title": "Computer and Network Security",
-            "description": "This course presents foundational concepts of computer and network security and privacy. It covers a wide breadth of concepts, including; Fundamentals of computer security and privacy, including security models, policies, and mechanisms; Cryptography for secure systems, including symmetric and asymmetric ciphers, hash functions, and integrity mechanisms; Authentication of users and computers; Network attacks and defenses at the network and application layers; Common software vulnerabilities and mitigation strategies; Secure operating systems and seminal access control models and policies; Principles of intrusion detection; Privacy, including considerations of end-user technologies.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 577,
-            "title": "Switched Network Management",
-            "description": "Topics related to design and management of campus enterprise networks, including VLAN design; virtualization and automation methodologies for management; laboratory use of open space source and commercial tools for managing such networks.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 579,
-            "title": "Introduction to Computer Performance Modeling",
-            "description": "Workload characterization, collection and analysis of performance data, instrumentation, tuning, analytic models including queuing network models and operational analysis, economic considerations.",
-            "num_sections": 2,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 580,
-            "title": "Numerical Analysis I",
-            "description": "Algorithm behavior and applicability. Effect of roundoff errors, systems of linear equations and direct methods, least squares via Givens and Householder transformations, stationary and Krylov iterative methods, the conjugate gradient and GMRES methods, convergence of method.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 581,
-            "title": "Game Engine Foundations",
-            "description": "In this course we will examine some of the components of a commercial strength game engine. We will survey different genres of games, using some of the unique design challenges each genre provides as a motivation for an in-depth examination of the affordances games engines provide for designing games of that genre. We will cover topics ranging from data structures, resource management, game loops and logical timing systems, scripting, error logging, and networking. A sequence of programming assignments will lead students through the implementation of their own game engine, which they will use to design their own game.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 582,
-            "title": "Computer Models of Interactive Narrative",
-            "description": "A theoretical and practical study of the computational models supporting the creation of interactive narrative systems. Topics include basic introductions to cognitive, linguistic and film theoretic models of narrative; representations and reasoning techniques from artificial intelligence related to the creation of storylines, dialog, camera control and other features of narrative in text-based and/or 3D virtual worlds; mechanisms for controlling character behavior in multi-agent multi-user stories; and applications of these techniques ranging from interactive entertainment to educational software to training simulations.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 591,
-            "title": "Special Topics In Computer Science",
-            "description": "Topics of current interest in computer science not covered in existing courses.",
-            "num_sections": 15,
-            "units": [
-                1,
-                6
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 600,
-            "title": "Computer Science Graduate Orientation",
-            "description": "Introduction for new graduate students to [a] information about graduate program, department, and university resources, and [b] research projects conducted by CSC faculty.",
-            "num_sections": 3,
-            "units": 1
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 630,
-            "title": "Master's Independent Study",
-            "description": "Individual investigation of topics under the direction of member[s] of the graduate faculty.",
-            "num_sections": 1,
-            "units": [
-                1,
-                3
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 690,
-            "title": "Master's Examination",
-            "description": "For students in non thesis master's programs who have completed all other requirements of the degree except preparing for and taking the final master's exam.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 693,
-            "title": "Master's Supervised Research",
-            "description": "Instruction in research and research under the mentorship of a member of the Graduate Faculty.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 695,
-            "title": "Master's Thesis Research",
-            "description": "Thesis research.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 699,
-            "title": "Master's Thesis Preparation",
-            "description": "For students who have completed all credit hour requirements and full-time enrollment for the master's degree and are writing and defending their thesis.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 711,
-            "title": "Geospatial Data Management",
-            "description": "Data management principles and technologies for efficient implementation of geospatial applications. This course introduces students to: spatial and temporal data types, data models, geometry models, spatial predicates, spatial access methods, and spatial query processing. In addition, students will be exposed to modern data management systems for geospatial application development and data integration principles. Prior GIS programming knowledge and knowledge of database management systems and SQL is preferred.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 714,
-            "title": "Real Time Computer Systems",
-            "description": "Design and implementation of computer systems required to provide specific response times. Structure of a real-time kernel, fixed and dynamic priority scheduling algorithms, rate monotonic scheduling theory, priority inheritance protocols, real-timebenchmarks, case study of a real-time kernel.",
-            "num_sections": 1,
-            "units": 3
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 791,
-            "title": "Advanced Topics In Computer Science",
-            "description": "Advanced topics of current interest in computer science not covered by existing courses.",
-            "num_sections": 11,
-            "units": [
-                1,
-                6
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 801,
-            "title": "Seminar in Computer Science",
-            "description": "Faculty and graduate student research presentations and discussions centered around current research problems in Computer Science and advanced theories in these areas. Students are expected to make presentations of published works and, depending onthe course credit received and their academic degree progress, present their own research results. Critical discussions of the various research approaches and results and their relationships based on the presentations and additional readings and research. Departmental Approval Required.",
-            "num_sections": 2,
-            "units": [
-                1,
-                3
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 830,
-            "title": "Doctoral Independent Study",
-            "description": "Individual investigation of advanced topics under the direction of member[s] of the graduate faculty.",
-            "num_sections": 1,
-            "units": [
-                1,
-                3
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 885,
-            "title": "Doctoral Supervised Teaching",
-            "description": "Teaching experience under the mentorship of faculty who assist the student in planning for the teaching assignment, observe and provide feedback to the student during the teaching assignment, and evaluate the student upon completion of the assignment.",
-            "num_sections": 1,
-            "units": [
-                1,
-                3
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 890,
-            "title": "Doctoral Preliminary Exam",
-            "description": "For students who are preparing for and taking written and/or oral preliminary exams.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 893,
-            "title": "Doctoral Supervised Research",
-            "description": "Instruction in research and research under the mentorship of a member of the Graduate Faculty.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 895,
-            "title": "Doctoral Dissertation Research",
-            "description": "Dissertation research",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        },
-        {
-            "subject": "CSC - Computer Science",
-            "course_curriculum": "CSC",
-            "course_code": 899,
-            "title": "Doctoral Dissertation Preparation",
-            "description": "For students who have completed all credit hour, full-time enrollment, preliminary examination, and residency requirements for the doctoral degree, and are writing and defending their dissertations.",
-            "num_sections": 1,
-            "units": [
-                1,
-                9
-            ]
-        }
-    ]
+  "courses": [
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 110,
+      "title": "Computer Science Principles - The Beauty and Joy of Computing",
+      "description": "This course explores the principles of computer science while emphasizing the relevance of computing to students and to society. Students will learn about beautiful computing applications that have changed the world and how computing empowers discovery and innovation. Students will learn the joy of programming a computer using a friendly, graphical language, capable of creating apps, simulations, and games. Students who complete the course will be able to solve meaningful problems with computers, apply design processes to take an idea from concept to implementation, develop a computer program, and analyze computing artifacts from both design and computing perspectives. Students will complete a substantial team programming project related to their interests. 20% of seats will be restricted to Computer Science or CS-Intended students. Enrolling students must not have received credit for or a grade in CSC 116 or CSC 200.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 111,
+      "title": "Introduction to Computing: Python",
+      "description": "Computation problem solving through writing Python programs. Particular elements include: careful development of Python programs from specifications; documentation and style; appropriate use of control structures, data types and subprograms; abstractions and verification; engineering applications. Most seats reserved for Civil, Construction, and Environmental Engineering majors.",
+      "num_sections": 6,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 113,
+      "title": "Introduction to Computing - MATLAB",
+      "description": "Problem solving through writing MATLAB programs. Particular elements include: careful development of MATLAB programs from specifications; documentation and style; appropriate use of control structures, data types and subprograms; abstractions and verification; engineering applications. Most seats reserved for Aerospace, Mechanical, and Biomedical Engineering majors.",
+      "num_sections": 8,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 116,
+      "title": "Introduction to Computing - Java",
+      "description": "An introductory course in computing in Java. Emphasis on algorithm development and problem solving. Careful and methodical development of Java applications from specifications; documentation and style; appropriate use of control structures; classes and methods; data types and data abstraction; object-oriented programming and design; software testing. Most seats reserved for Computer Science majors.",
+      "num_sections": 7,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 216,
+      "title": "Software Development Fundamentals",
+      "description": "The second course in computing, intended for majors and minors. Emphasis is on exploring encapsulation; polymorphism; composition; inheritance; finite state machines; linear data structures [including array lists, linked lists, stacks, queues, and the tradeoffs in implementation]; and recursion [including recursive linked lists] in the context of the software development lifecycle including the processes and practices for designing, implementing, and testing high quality software.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 217,
+      "title": "Software Development Fundamentals Lab",
+      "description": "Laboratory course to accompany CSC 216 lecture course. Application of the software processes and practices to design, implement, and test the development of software solutions requiring composition; inheritance; finite state machines; and linear data structures, including recursive linked lists.",
+      "num_sections": 15,
+      "units": 1
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 226,
+      "title": "Discrete Mathematics for Computer Scientists",
+      "description": "Propositional logic and predicate calculus. Logic gates and circuits. Methods of proof. Mathematical induction. Recursive definitions and functions. Solving recurrences. Asymptotic growth of functions. Elementary combinatorics and probability. Introduction to graph theory. Binary relations, including posets and equivalence relations. This course assumes knowledge of topics covered in high-school Algebra I and II. Most seats reserved for CSC and CPE majors and Computer Programming minors.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 230,
+      "title": "C and Software Tools",
+      "description": "In this course, students will develop skills in several important areas. First, we'll get some experience working in C, a language that lets us think like procedural rather than object-oriented developers. Also, being a fairly low-level language, C lets us see and control more of what's going on in the hardware. This can help us think about using the hardware more effectively, whether we're actually programming in C or in a higher-level language. While we learn C, we'll also learn about tools and techniques that help us build, manage, debug and analyze software projects.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 236,
+      "title": "Computer Organization and Assembly Language for Computer Scientists",
+      "description": "Computer architecture topics required by professional software developers, including binary and hexadecimal numbers, hardware component organization, machine instruction sets, assembler language programming, linking assembler language with high-level languages, program testing, computer hardware design issues, computer software design issues, and trends in current computer design.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 246,
+      "title": "Concepts and Facilities of Operating Systems for Computer Scientists",
+      "description": "This course prepares students to understand fundamental issues in operating systems. Students will be introduced to multi-threading, synchronization, scheduling, virtual memory, security and communication/networking. The material will be covered in terms of operating systems services exported by the operating systems interface. Current trends will be discussed to give a better understanding of future developments likely to be included in operating systems.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 295,
+      "title": "Special Topics in Computer Science",
+      "description": "Special topics in CSC at the early undergraduate level.",
+      "num_sections": 2,
+      "units": [1, 3]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 297,
+      "title": "Cybersecurity Topics",
+      "description": "Introductory cybersecurity topics that may cover areas like cybersecurity policy, law, attacks and defenses, ethics, forensics, social engineering, usability, or privacy. Topics will vary by section and semester. Course may be taken multiple times only if topic is different.",
+      "num_sections": 3,
+      "units": 1
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 298,
+      "title": "Introduction to Computer Science Research Methods",
+      "description": "Introduction to computer science research methods for first or second year Computer Science undergraduate students. Topics include creating research problems, reading research papers, conducting a literature review, designing research studies, qualitative and quantitative data analysis, communication of research findings, teamwork, and research directions. Students will work on teams to complete a mentored research proposal.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 299,
+      "title": "Mentored Research in Computer Science",
+      "description": "Mentored research experience in Computer Science. The experience must be arranged in advance by the student and approved by the Department of Computer Science prior to enrollment. A minimum of 45 hours must be completed for each credit hour earned. A final report approved by the faculty mentor and the department are required. Individualized/Independent Research courses require a \"Course Agreement for Students Enrolled in Non-Standard Courses\" to be completed by the student and faculty member prior to registration by the department. CSC 299 may not be repeated.",
+      "num_sections": 1,
+      "units": [1, 3]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 302,
+      "title": "Introduction to Numerical Methods",
+      "description": "Numerical computations with digital computers; floating point arithmetic and implications of round-off error; Monte Carlo methods. Algorithms and computer techniques for the numerical solution of problems in: function evaluation; zeros of functions; interpolation; numerical differentiation and integration; linear systems of equations; curve fitting; solutions of non-linear equations; optimization.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 316,
+      "title": "Data Structures and Algorithms",
+      "description": "Abstract data types; abstract and implementation-level views of data types. Linear and branching data structures, including stacks, queues, trees, heaps, hash tables, graphs, and others at discretion of instructor. Best, worst, and average case asymptotic time and space complexity as a means of formal analysis of iterative and recursive algorithms.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 326,
+      "title": "Software Engineering",
+      "description": "Application of software engineering methods to develop complex products, including the following skills: quality assurance, project management, requirements analysis, specifications, design, development, testing, production, maintenance, security, privacy, configuration management, build systems, communication, and teaming.",
+      "num_sections": 7,
+      "units": 4
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 333,
+      "title": "Automata, Grammars, and Computability",
+      "description": "Study of three classical formal models of computation--finite state machines, context-free grammars, and Turing machines--and the corresponding families of formal languages. Power and limitations of each model. Parsing. Non-determinism. The Halting Problem and undecidability. The classes P and NP, and NP-completeness.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 342,
+      "title": "Applied Web-based Client-Server Computing",
+      "description": "This course explores client-server computing on the World Wide Web. The course focuses on the architecture of web-based client-server applications and accepted industry practices. Students work in teams to develop web applications with dynamic content delivery.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 379,
+      "title": "Ethics in Computing",
+      "description": "Computers have become ubiquitous and advances in computing power and accessibility have enabled applications that were speculation a generation ago. Computing professionals, as the gatekeepers of this technology, have significant responsibilities to society. This course examines the role of the computing professional in modern society, focusing on the ethical and moral responsibilities of the profession. Additional topics will include moral/ethical decision-making, whistle-blowing, global organizations, licensure, and emerging technologies.",
+      "num_sections": 2,
+      "units": 1
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 401,
+      "title": "Data and Computer Communications Networks",
+      "description": "This course provides an introduction to fundamental concepts in the design and implementation of computer networks, their protocols, and applications with a particular emphasis on the Internet's TCP/IP, OSPF/BGP, Ethernet, IEEE 802.11 protocol suite. Topics to be covered include: network architectures, packet/circuit switching, network applications, sockets, reliable data transport, flow control, congestion control, routing, link protocols, addressing, local area networks, wireless networks, mobility, management, network security, software defined networking and the design of network services. Credit is not allowed for both CSC 401 and ECE 407.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 411,
+      "title": "Introduction to Artificial Intelligence",
+      "description": "Overview and definitions of Artificial Intelligence [AI]. Search, including depth-first and breadth-first techniques with backtracking. Knowledge representation with emphasis on logical methods, Horn databases, resolution, quantification, unification, skolemization and control issues; non-monotonic reasoning; frames; semantic nets. AI systems, including planning, learning, natural language and expert systems. An AI programming language may be taught at the instructor's discretion.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 412,
+      "title": "Compiler Construction",
+      "description": "The course will concentrate on the theory and practice of compiler-writing. Topics to be covered will include techniques for parsing, code generation, and optimization. Furthermore, the theoretical underpinnings of compilers such as LR parsing will be covered. Finally, the students will be exposed to compiler construction tools, and will obtain hands-on experience in building a compiler for a small programming language. Besides the listed prerequisite courses, other helpful courses include CSC 253, CSC 224, CSC 234, and MA 121.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 415,
+      "title": "Software Security",
+      "description": "Introduces students to the discipline of designing, developing, and testing secure and dependable software-based systems. Students will learn about risks and vulnerabilities, and effective software security techniques. Topics include common vulnerabilities, access control, information leakage, logging, usability, risk analysis, testing, design principles, security policies, and privacy. Project required.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 417,
+      "title": "Theory of Programming Languages",
+      "description": "Theory of programming languages with emphasis on programming language semantics and implementation issues. Formal models of syntax and semantics. Static versus dynamic scoping. Parameter passing mechanisms. Garbage collection. Programming in alternate paradigms such as applicative, functional, logic, and object-oriented programming languages.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 422,
+      "title": "Automated Learning and Data Analysis",
+      "description": "This course provides an introduction to concepts and methods for extracting knowledge or other useful forms of information from data. This activity, also known under names including data mining, knowledge discovery, and exploratory data analysis, plays an important role in modern science, engineering, medicine, business, and government. Students will apply supervised and unsupervised automated learning methods to extract patterns, make predictions and identify groups from data. Students will also learn about the overall process of data collection and analysis that provides the setting for knowledge discovery, and concomitant issues of privacy and security. Examples and projects introduce the students to application areas including electronic commerce, information security, biology, and medicine. Students cannot get credit for both CSC 422 and CSC 522.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 427,
+      "title": "Introduction to Numerical Analysis I",
+      "description": "Theory and practice of computational procedures including approximation of functions by interpolating polynomials, numerical differentiation and integration, and solution of ordinary differential equations including both initial value and boundary value problems. Computer applications and techniques.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 440,
+      "title": "Database Management Systems",
+      "description": "Introduction to database concepts. This course examines the logical organization of databases: the entity-relationship model; the relational data model and its languages. Functional dependencies and normal forms. Design, implementation, and optimization of query languages; security and integrity, concurrency control, transaction processing, and distributed database systems.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 442,
+      "title": "Introduction to Data Science",
+      "description": "Overview of data structures, data lifecycle, statistical inference. Data management, queries, data cleaning, data wrangling. Classification and prediction methods to include linear regression, logistic regression, k-nearest neighbors, classification and regression trees. Association analysis. Clustering methods. Emphasis on analyzing data, use and development of software tools, and comparing methods.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 454,
+      "title": "Human-Computer Interaction",
+      "description": "A survey of concepts and techniques for user interface design and human computer interaction. Emphasizes user-centered design, interface development techniques, and usability evaluation.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 455,
+      "title": "Social Computing and Decentralized Artificial Intelligence",
+      "description": "This course surveys the field of social computing, introducing its key concepts, paradigms, and techniques. Specific topics are selected from the following list: social media and social network analytics, sociological underpinnings, crowdsourcing and surveys, human computation, social mobilization, human decision making, voting theory, judgment aggregation, prediction markets, economic mechanisms, incentives, organizational modeling, argumentation, contracts, norms, mobility and social context, sociotechnical systems, and software engineering with and for social computing. This course incorporates ideas from diverse disciplines [including sociology, psychology, law, economics, political science, logic, statistics, philosophy, business] to provide essential background for future computer science careers in industry and research.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 461,
+      "title": "Computer Graphics",
+      "description": "Principles of computer graphics with emphasis on two-dimensional and aspects of three-dimensional raster graphics. Topics include: graphics hardware devices, lines and polygons, clipping lines and polygons to windows, graphical user interface, vectors, projections, transformations, polygon fill. Programming projects in C or C++.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 471,
+      "title": "Modern Topics in Cybersecurity",
+      "description": "Exploration of three modern or emerging topics in Cybersecurity beyond the core cybersecurity curriculum. These topics may vary by semester. Enrollment is open to CSC majors only.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 474,
+      "title": "Network Security",
+      "description": "Basic concepts and techniques in information security and management such as risks and vulnerabilities, applied cryptography, authentication, access control, multilevel security, multilateral security, network attacks and defense, intrusion detection, physical security, copyright protection, privacy mechanisms, security management, system assurance and evaluation, and information warfare. Coverage of high-level concepts such as confidentiality, integrity, and availability applied to hardware, software, and data. Credit not allowed for both CSC 474 and CSC 574.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 481,
+      "title": "Game Engine Foundations",
+      "description": "In this course we will examine some of the components of a commercial strength game engine. We will survey different genres of games, using some of the unique design challenges each genre provides as a motivation for an in-depth examination of the affordances games engines provide for designing games of that genre. We will cover topics ranging from data structures, resource management, game loops and logical timing systems, scripting, error logging, and networking. A sequence of programming assignments will lead students through the implementation of their own game engine, which they will use to design their own game.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 486,
+      "title": "Computational Visual Narrative",
+      "description": "Computational Visual Narrative is a project-based course for developing computational media with visual computing tools such as game engines. Within this course we will gain familiarity with the repertoire and practice of individuals involved in the design and development of digital interactive experiences. In the process, you will gain an understanding of the underlying concepts, techniques and technologies of computational and digital systems, software development and its role and potential in narrative practice.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 492,
+      "title": "Senior Design Project",
+      "description": "Application of software engineering principles and basic computer science to the total development of a software system. Consideration of the software system design process, including requirements and design detail. Development and evaluation of a prototype accomplished through design team activity. Comprehensive written and oral project report is required. Open to CSC majors. Restricted to students with 6 hours of Computer Science Restricted Elective.",
+      "num_sections": 5,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 495,
+      "title": "Special Topics in Computer Science",
+      "description": "Topics of current interest in computer science not covered in existing courses. Each special topics course will have one or more prerequisites from the Computer Science core courses. CSC 495 may be repeated for credit if a different topic is chosen.",
+      "num_sections": 1,
+      "units": [1, 6]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 498,
+      "title": "Independent Study in Computer Science",
+      "description": "Detailed investigation of computing topics of particular interest to advanced undergraduate computer science majors under faculty direction. Appropriate topics may include software development projects, tutorial work on new or emerging technologies, or exploration of an emerging computing topic. The experience must be arranged in advance by the student and approved by the Department of Computer Science prior to enrollment. A minimum of 45 hours must be completed for each credit hour earned. An independent study proposal and final report approved by the faculty mentor and the department are required. Individualized/Independent Study courses require a \"Course Agreement for Students Enrolled in Non-Standard Courses\" be completed by the student and faculty member prior to registration by the department. At most 6 credit hours of CSC 498 and/or CSC 499 may be applied to degree.",
+      "num_sections": 2,
+      "units": [1, 6]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 499,
+      "title": "Independent Research in Computer Science",
+      "description": "Independent investigation of a research problem under the supervision of a faculty member in the Department of Computer Science. The experience must be arranged in advance by the student and approved by the Department of Computer Science prior to enrollment. A minimum of 45 hours must be completed for each credit hour earned. An independent research proposal and final report approved by the faculty mentor and the department are required. Individualized/Independent Research courses require a \"Course Agreement for Students Enrolled in Non-Standard Courses\" to be completed by the student and faculty member prior to registration by the department. At most 6 credit hours of CSC 498 and/or CSC 499 may be applied to degree.",
+      "num_sections": 1,
+      "units": [1, 6]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 501,
+      "title": "Operating Systems Principles",
+      "description": "Fundamental issues related to the design of operating systems. Process scheduling and coordination, deadlock, memory management and elements of distributed systems.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 505,
+      "title": "Design and Analysis Of Algorithms",
+      "description": "Algorithm design techniques: use of data structures, divide and conquer, dynamic programming, greedy techniques, local and global search. Complexity and analysis of algorithms: asymptotic analysis, worst case and average case, recurrences, lower bounds, NP-completeness. Algorithms for classical problems including sorting, searching and graph problems [connectivity, shortest paths, minimum spanning trees].",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 506,
+      "title": "Architecture Of Parallel Computers",
+      "description": "The need for parallel and massively parallel computers. Taxonomy of parallel computer architecture, and programming models for parallel architectures. Example parallel algorithms. Shared-memory vs. distributed-memory architectures. Correctness and performance issues. Cache coherence and memory consistency. Bus-based and scalable directory-based multiprocessors. Interconnection-network topologies and switch design. Brief overview of advanced topics such as multiprocessor prefetching and speculative parallel execution. Credit is not allowed for more than one course in this set: ECE 406, ECE 506, CSC 406.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 510,
+      "title": "Software Engineering",
+      "description": "An introduction to software life cycle models; size estimation; cost and schedule estimation; project management; risk management; formal technical reviews; analysis, design, coding and testing methods; configuration management and change control; and software reliability estimation. Emphasis on large development projects. An individual project required following good software engineering practices throughout the semester.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 512,
+      "title": "Compiler Construction",
+      "description": "The course will concentrate on the theory and practice of compiler-writing. Topics to be covered will include techniques for parsing, code generation, and optimization. Furthermore, the theoretical underpinnings of compilers such as LR parsing will be covered. Finally, the students will be exposed to compiler construction tools, and will obtain hands-on experience in building a compiler for a small programming language. Besides the listed prerequisite courses, other helpful courses include CSC 253, CSC 224, CSC 234, and MA 121.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 514,
+      "title": "Foundations of Cryptography",
+      "description": "Cryptography is the study of mathematical techniques for securing digital information, systems and distributed computation against adversarial attacks. In this class you will learn the concepts and the algorithms behind the most used cryptographic protocols: you will learn how to formally define security properties and how to formally prove/disprove that a cryptographic protocol achieves a certain security property. You will also discover that cryptography has a much broader range of applications. It solves absolutely paradoxical problems such as proving knowledge of a secret without ever revealing the secret [zero-knowledge proof], or computing the output of a function without ever knowing the input of the function [secure computation]. Finally, we will look closely at one of the recent popular application of cryptography: the blockchain technology. Additionally, graduate students will study some of the topics in greater depth.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 517,
+      "title": "Object-Oriented Design and Development",
+      "description": "The design of object-oriented systems, using principles such as the GRASP principles, and methodologies such as CRC cards and the Unified Modeling Language [ULM]. Requirements analysis. Design patterns Agile Methods. Static vs. dynamic typing. Metaprogramming. Open-source development practices and tools. Test-first development. Project required, involving contributions to an open-source software project.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 520,
+      "title": "Artificial Intelligence I",
+      "description": "Introduction to and overview of artificial intelligence. Study of AI programming language such as LISP or PROLOG. Elements of AI problem-solving technique. State spaces and search techniques. Logic, theorem proving and associative databases. Introduction to knowledge representation, expert systems and selected topics including natural language processing, vision and robotics.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 522,
+      "title": "Automated Learning and Data Analysis",
+      "description": "This course provides an introduction to concepts and methods for extracting knowledge or other useful forms of information from data. This activity, also known under names including data mining, knowledge discovery, and exploratory data analysis, plays an important role in modern science, engineering, medicine, business, and government. Students will apply supervised and unsupervised automated learning methods to extract patterns, make predictions and identify groups from data. Students will also learn about the overall process of data collection and analysis that provides the setting for knowledge discovery, and concomitant issues of privacy and security. Examples and projects introduce the students to application areas including electronic commerce, information security, biology, and medicine. Students cannot get credit for both CSC 422 and CSC 522.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 530,
+      "title": "Computational Methods for Molecular Biology",
+      "description": "Computer algorithms supporting genomic research: DNA sequence comparison and assembly, hybridization mapping, phylogenetic reconstruction, genome rearrangement, protein folding and threading.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 533,
+      "title": "Privacy in the Digital Age",
+      "description": "Privacy is a growing concern in our modern society. We interact and share our personal information with a wide variety of organizations, including financial and healthcare institutions, web service providers and social networks. Many times such personal information is inappropriately collected, used or shared, often without our awareness. This course introduces privacy in a broad sense, with the aim of providing students an overview of the challenging and emerging research topics in privacy. This course will expose students to many of the issues that privacy engineers, program managers, researchers and designers deal with in industry. ST 370 is recommended but not mandatory.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 540,
+      "title": "Database Management concepts and Systems",
+      "description": "Advanced database concepts. Logical organization of databases: the entity-relationship model; the relational data model and its languages. Functional dependencies and normal forms. Design, implementation, and optimization of query languages; security and integrity, consurrency control, transaction processing, and distributed database systems.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 547,
+      "title": "Cloud Computing Technology",
+      "description": "Study of cloud computing principles, architectures, and actual implementations. Students will learn how to critically evaluate cloud solutions, how to construct and secure a private cloud computing environment based on open source solutions, and how to federate it with external clouds. Performance, security, cost, usability, and utility of cloud computing solutions will be studied both theoretically and in hands-on exercises. Hardware-, infrastructure-, platform-, software-, security-, - \"as-a-service\".",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 554,
+      "title": "Human-Computer Interaction",
+      "description": "Basic theory and concepts of human-computer interaction. Human and computational aspects. Cognitive engineering. Practical HCI skills. Significant historical case studies. Current technology and future directions in user interface development.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 555,
+      "title": "Social Computing and Decentralized Artificial Intelligence",
+      "description": "This course surveys the field of social computing, introducing its key concepts, paradigms, and techniques. Specific topics are selected from the following list: social media and social network analytics, sociological underpinnings, crowdsourcing and surveys, human computation, social mobilization, human decision making, voting theory, judgment aggregation, prediction markets, economic mechanisms, incentives, organizational modeling, argumentation, contracts, norms, mobility and social context, sociotechnical systems, and software engineering with and for social computing. This course incorporates ideas from diverse disciplines [including sociology, psychology, law, economics, political science, logic, statistics, philosophy, business] to provide essential background for future computer science careers in industry and research.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 561,
+      "title": "Principles of Computer Graphics",
+      "description": "Fundamentals of the OpenGL API. 2D and 3D transformations, perspective and orthographic projection, and the mathematical foundations that underlie these concepts. Geometric primitives, clipping, depth buffering, scan conversion, and rasterization. Lighting, shadows, and texture mapping. Curves and surfaces.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 570,
+      "title": "Computer Networks",
+      "description": "General introduction to computer networks. Discussion of protocol principles, local area and wide area networking, OSI stack, TCP/IP and quality of service principles. Detailed discussion of topics in medium access control, error control coding, and flow control mechanisms. Introduction to networking simulation, security, wireless and optical networking.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 573,
+      "title": "Internet Protocols",
+      "description": "Principles and issues underlying provision of wide area connectivity through interconnection of autonomous networks. Internet architecture and protocols today and likely evolution in future. Case studies of particular protocols to demonstrate how fundamental principles applied in practice. Selected examples of networked clinet/server applications to motivate the functional requirements of internetworking. Project required.",
+      "num_sections": 3,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 574,
+      "title": "Computer and Network Security",
+      "description": "This course presents foundational concepts of computer and network security and privacy. It covers a wide breadth of concepts, including; Fundamentals of computer security and privacy, including security models, policies, and mechanisms; Cryptography for secure systems, including symmetric and asymmetric ciphers, hash functions, and integrity mechanisms; Authentication of users and computers; Network attacks and defenses at the network and application layers; Common software vulnerabilities and mitigation strategies; Secure operating systems and seminal access control models and policies; Principles of intrusion detection; Privacy, including considerations of end-user technologies.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 577,
+      "title": "Switched Network Management",
+      "description": "Topics related to design and management of campus enterprise networks, including VLAN design; virtualization and automation methodologies for management; laboratory use of open space source and commercial tools for managing such networks.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 579,
+      "title": "Introduction to Computer Performance Modeling",
+      "description": "Workload characterization, collection and analysis of performance data, instrumentation, tuning, analytic models including queuing network models and operational analysis, economic considerations.",
+      "num_sections": 2,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 580,
+      "title": "Numerical Analysis I",
+      "description": "Algorithm behavior and applicability. Effect of roundoff errors, systems of linear equations and direct methods, least squares via Givens and Householder transformations, stationary and Krylov iterative methods, the conjugate gradient and GMRES methods, convergence of method.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 581,
+      "title": "Game Engine Foundations",
+      "description": "In this course we will examine some of the components of a commercial strength game engine. We will survey different genres of games, using some of the unique design challenges each genre provides as a motivation for an in-depth examination of the affordances games engines provide for designing games of that genre. We will cover topics ranging from data structures, resource management, game loops and logical timing systems, scripting, error logging, and networking. A sequence of programming assignments will lead students through the implementation of their own game engine, which they will use to design their own game.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 582,
+      "title": "Computer Models of Interactive Narrative",
+      "description": "A theoretical and practical study of the computational models supporting the creation of interactive narrative systems. Topics include basic introductions to cognitive, linguistic and film theoretic models of narrative; representations and reasoning techniques from artificial intelligence related to the creation of storylines, dialog, camera control and other features of narrative in text-based and/or 3D virtual worlds; mechanisms for controlling character behavior in multi-agent multi-user stories; and applications of these techniques ranging from interactive entertainment to educational software to training simulations.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 591,
+      "title": "Special Topics In Computer Science",
+      "description": "Topics of current interest in computer science not covered in existing courses.",
+      "num_sections": 15,
+      "units": [1, 6]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 600,
+      "title": "Computer Science Graduate Orientation",
+      "description": "Introduction for new graduate students to [a] information about graduate program, department, and university resources, and [b] research projects conducted by CSC faculty.",
+      "num_sections": 3,
+      "units": 1
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 630,
+      "title": "Master's Independent Study",
+      "description": "Individual investigation of topics under the direction of member[s] of the graduate faculty.",
+      "num_sections": 1,
+      "units": [1, 3]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 690,
+      "title": "Master's Examination",
+      "description": "For students in non thesis master's programs who have completed all other requirements of the degree except preparing for and taking the final master's exam.",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 693,
+      "title": "Master's Supervised Research",
+      "description": "Instruction in research and research under the mentorship of a member of the Graduate Faculty.",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 695,
+      "title": "Master's Thesis Research",
+      "description": "Thesis research.",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 699,
+      "title": "Master's Thesis Preparation",
+      "description": "For students who have completed all credit hour requirements and full-time enrollment for the master's degree and are writing and defending their thesis.",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 711,
+      "title": "Geospatial Data Management",
+      "description": "Data management principles and technologies for efficient implementation of geospatial applications. This course introduces students to: spatial and temporal data types, data models, geometry models, spatial predicates, spatial access methods, and spatial query processing. In addition, students will be exposed to modern data management systems for geospatial application development and data integration principles. Prior GIS programming knowledge and knowledge of database management systems and SQL is preferred.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 714,
+      "title": "Real Time Computer Systems",
+      "description": "Design and implementation of computer systems required to provide specific response times. Structure of a real-time kernel, fixed and dynamic priority scheduling algorithms, rate monotonic scheduling theory, priority inheritance protocols, real-timebenchmarks, case study of a real-time kernel.",
+      "num_sections": 1,
+      "units": 3
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 791,
+      "title": "Advanced Topics In Computer Science",
+      "description": "Advanced topics of current interest in computer science not covered by existing courses.",
+      "num_sections": 11,
+      "units": [1, 6]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 801,
+      "title": "Seminar in Computer Science",
+      "description": "Faculty and graduate student research presentations and discussions centered around current research problems in Computer Science and advanced theories in these areas. Students are expected to make presentations of published works and, depending onthe course credit received and their academic degree progress, present their own research results. Critical discussions of the various research approaches and results and their relationships based on the presentations and additional readings and research. Departmental Approval Required.",
+      "num_sections": 2,
+      "units": [1, 3]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 830,
+      "title": "Doctoral Independent Study",
+      "description": "Individual investigation of advanced topics under the direction of member[s] of the graduate faculty.",
+      "num_sections": 1,
+      "units": [1, 3]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 885,
+      "title": "Doctoral Supervised Teaching",
+      "description": "Teaching experience under the mentorship of faculty who assist the student in planning for the teaching assignment, observe and provide feedback to the student during the teaching assignment, and evaluate the student upon completion of the assignment.",
+      "num_sections": 1,
+      "units": [1, 3]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 890,
+      "title": "Doctoral Preliminary Exam",
+      "description": "For students who are preparing for and taking written and/or oral preliminary exams.",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 893,
+      "title": "Doctoral Supervised Research",
+      "description": "Instruction in research and research under the mentorship of a member of the Graduate Faculty.",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 895,
+      "title": "Doctoral Dissertation Research",
+      "description": "Dissertation research",
+      "num_sections": 1,
+      "units": [1, 9]
+    },
+    {
+      "subject": "CSC - Computer Science",
+      "course_curriculum": "CSC",
+      "course_code": 899,
+      "title": "Doctoral Dissertation Preparation",
+      "description": "For students who have completed all credit hour, full-time enrollment, preliminary examination, and residency requirements for the doctoral degree, and are writing and defending their dissertations.",
+      "num_sections": 1,
+      "units": [1, 9]
+    }
+  ]
 }
