@@ -29,3 +29,10 @@ def expected_f22_subjects(test_resources_dir):
     data_filepath = os.path.join(test_resources_dir, "f22_subjects.txt")
     with open(data_filepath, "r") as f:
         return f.read()
+
+
+@pytest.fixture
+def expected_s25_csc_catalog(test_resources_dir):
+    data_filepath = os.path.join(test_resources_dir, "s25_csc_catalog.json")
+    with open(data_filepath, "r") as f:
+        return json.load(f)

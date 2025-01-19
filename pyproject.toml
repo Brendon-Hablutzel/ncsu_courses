@@ -1,6 +1,6 @@
 [project]
 name = "ncsu_courses"
-version = "0.3.2"
+version = "0.4.0"
 description = "A Python library for retrieving data about NCSU's course offerings and sections"
 readme = "README.md"
 requires-python = ">=3.13"
